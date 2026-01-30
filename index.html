@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netlify Gift Cards – Buy & Sell Digital Gift Cards Instantly</title>
+
+  <!-- Favicon & Logo -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Buy and sell digital gift cards instantly. Fast payments, instant delivery, and secure checkout with Hoodpay.">
+
+  <!-- Social Share Preview -->
+  <meta property="og:title" content="Netlify Gift Cards – Instant Digital Gift Cards" />
+  <meta property="og:description" content="Buy & sell gift cards instantly. Fast delivery, secure payments, and 24/7 service." />
+  <meta property="og:image" content="https://giftcards.netlify.com/images/logo.png" />
+  <meta property="og:url" content="https://giftcards.netlify.com" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Netlify Gift Cards">
+  <meta name="twitter:description" content="Instant digital gift cards – fast & secure.">
+  <meta name="twitter:image" content="https://giftcards.netlify.com/images/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --pink-main: #ff5fa2;
+      --pink-soft: #ffe3ef;
+      --pink-dark: #e0468a;
+      --text-dark: #2b2b2b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fff0f7, #ffe6f1);
+      color: var(--text-dark);
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: clamp(3rem, 6vw, 5rem);
+      color: var(--pink-main);
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      opacity: 0.85;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+
+    @media (max-width: 640px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 15px 40px rgba(255, 95, 162, 0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 50px rgba(255, 95, 162, 0.25);
+    }
+
+    .card img {
+      width: 130px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 12px;
+      background: var(--pink-soft);
+    }
+
+    .card-content {
+      flex: 1;
+    }
+
+    .price {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--pink-main);
+      margin-bottom: 6px;
+    }
+
+    .desc {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin-bottom: 14px;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, var(--pink-main), var(--pink-dark));
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 6px 16px rgba(255, 95, 162, 0.35);
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 22px rgba(255, 95, 162, 0.5);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid rgba(255, 95, 162, 0.15);
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Netlify Gift Cards</h1>
+    <p>Buy secure, instant digital gift cards in your favorite denominations</p>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+
+      <!-- $10 -->
+      <div class="card">
+        <img src="images/10.jpg" alt="$10 Gift Card">
+        <div class="card-content">
+          <div class="price">$10 Gift Card</div>
+          <div class="desc">Perfect for small gifts and quick surprises.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- $25 -->
+      <div class="card">
+        <img src="images/25.jpg" alt="$25 Gift Card">
+        <div class="card-content">
+          <div class="price">$25 Gift Card</div>
+          <div class="desc">Great for birthdays, friends, and thank-you gifts.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- $50 -->
+      <div class="card">
+        <img src="images/50.jpg" alt="$50 Gift Card">
+        <div class="card-content">
+          <div class="price">$50 Gift Card</div>
+          <div class="desc">A popular choice for premium gifting.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- $100 -->
+      <div class="card">
+        <img src="images/100.jpg" alt="$100 Gift Card">
+        <div class="card-content">
+          <div class="price">$100 Gift Card</div>
+          <div class="desc">Ideal for special occasions and celebrations.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- $200 -->
+      <div class="card">
+        <img src="images/200.jpg" alt="$200 Gift Card">
+        <div class="card-content">
+          <div class="price">$200 Gift Card</div>
+          <div class="desc">Luxury gifting made simple and fast.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- $500 -->
+      <div class="card">
+        <img src="images/500.jpg" alt="$500 Gift Card">
+        <div class="card-content">
+          <div class="price">$500 Gift Card</div>
+          <div class="desc">Ultimate premium gift card experience.</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Checkout Modal -->
+  <div id="checkoutModal" class="modal">
+    <div class="modal-content">
+      <h2>Checkout</h2>
+      <p id="summaryText"></p>
+
+      <label>Transaction Type</label>
+      <select id="tradeType">
+        <option value="buy">Buy Gift Card</option>
+        <option value="sell">Sell Gift Card</option>
+      </select>
+
+      <label>Email Address</label>
+      <input type="email" id="email" placeholder="you@email.com" required />
+
+      <button class="btn" onclick="payNow()">Proceed to Payment</button>
+      <button class="btn cancel" onclick="closeModal()">Cancel</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Netlify • Secure Payments • Instant Delivery
+  </footer>
+
+<script>
+let selectedAmount = 0;
+
+function openCheckout(amount) {
+  selectedAmount = amount;
+  document.getElementById('summaryText').innerText = `You are about to purchase a $${amount} gift card.`;
+  document.getElementById('checkoutModal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('checkoutModal').style.display = 'none';
+}
+
+function payNow() {
+  const email = document.getElementById('email').value;
+  const type = document.getElementById('tradeType').value;
+
+  if(!email) return alert('Please enter your email');
+
+  // HOODPAY PAYMENT LINK (replace YOUR_PUBLIC_KEY)
+  const hoodpayUrl = `https://hoodpay.io/pay?amount=${selectedAmount}&email=${email}&type=${type}`;
+  window.location.href = hoodpayUrl;
+}
+</script>
+
+<style>
+.modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.5);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+}
+.modal-content{
+  background:white;
+  padding:30px;
+  border-radius:16px;
+  width:100%;
+  max-width:420px;
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+.modal-content input,select{
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ddd;
+}
+.cancel{background:#ccc;color:#333}
+</style>
+
+</body>
+</html>
